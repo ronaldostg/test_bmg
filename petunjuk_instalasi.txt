@@ -1,0 +1,7 @@
+Import Database
+1. buka phpmyadmin
+2. Pilih menu Import kemudian pilih file dari database 
+
+Petunjuk instalasi :
+
+1. 
