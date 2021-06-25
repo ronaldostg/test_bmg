@@ -1,7 +1,21 @@
 Import Database
 1. buka phpmyadmin
-2. Pilih menu Import kemudian pilih file dari database 
+2. Pilih menu Import kemudian pilih file dari database/ci4_database.sql
+ 
 
 Petunjuk instalasi :
 
-1. 
+1. Clone / download project dari link github ....
+2. Setelah proses download selesai, jalankan project dengan 
+perintah di cmd yaitu : php spark serve.
+3. Jika perintah selesai, copy hasil perintah yang dieksekusi dengan link 
+http://localhost:8080 ke browser dan jalankan di browser.
+4. Jika website berjalan maka akan muncul form login kemudian masukkan username dan password 
+sebagai berikut :
+username : ronaldostg
+password: ronaldo12109
+5. Setelah login berhasil, maka akan menampilkan list untuk mengelola data artikel
+ 
+
+
+
