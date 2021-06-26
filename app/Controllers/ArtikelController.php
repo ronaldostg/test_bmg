@@ -90,11 +90,10 @@ class ArtikelController extends BaseController{
 
     public function detail($id){
         $artikel = new ArtikelModel();
-        // echo $id;
+     
 
         $data['detail'] = $artikel->where('id', $id)->first();
-        
-        // var_dump($data);
+         
         return view('admin/detail', $data);
     }
 

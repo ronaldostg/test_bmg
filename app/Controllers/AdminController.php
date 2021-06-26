@@ -13,15 +13,12 @@ class AdminController extends BaseController
 {
 	public function index()
 	{
-		// echo view("test");
-
 		echo view('admin/login');
 	}
 
 
 	public function auth()
 	{
-		// echo "berhasil";
 		$session = session();
 		$model = new AdminModel();
 		$username = $this->request->getVar('username');

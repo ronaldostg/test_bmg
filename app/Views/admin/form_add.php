@@ -60,4 +60,3 @@
   CKEDITOR.replace('ckeditor');
 </script>
 
-<
